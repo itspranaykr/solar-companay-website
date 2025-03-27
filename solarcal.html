@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>India Solar Calculator</title>
+    <link rel="stylesheet" href="solarcal.css">
+</head>
+<body>
+    <div class="calculator-container">
+        <img src="logo.webp" height="150px">
+        <h1>India Solar Calculator</h1>
+        <h2>AG ENTERPRISES</h2>
+        <p>Estimate your solar panel requirements based on your location and electricity consumption</p>
+        
+        <div class="form-group">
+            <label for="state">Select Your State:</label>
+            <select id="state">
+                <option value="2.0">Delhi</option>
+                <option value="3.8">Uttar Pradesh</option>
+                <option value="5.5">Rajasthan</option>
+                <option value="5.3">Gujarat</option>
+                <option value="5.0">Madhya Pradesh</option>
+                <option value="4.8">Maharashtra</option>
+                <option value="4.7">Andhra Pradesh</option>
+                <option value="4.6">Karnataka</option>
+                <option value="4.5">Tamil Nadu</option>
+                <option value="4.3">Telangana</option>
+                <option value="4.2">Haryana</option>
+                <option value="4.0">Punjab</option> 
+                <option value="3.7">Bihar</option>
+                <option value="3.5">West Bengal</option>
+                <option value="3.3">Odisha</option>
+                <option value="3.0">Kerala</option>
+                <option value="2.8">Jharkhand</option>
+                <option value="2.5">Assam</option>
+                <option value="2.3">Himachal Pradesh</option>
+                <option value="2.0">Jammu & Kashmir</option>     
+            </select>
+        </div>
+        
+        <div class="form-group">
+            <label for="bill">Average Monthly Electricity Bill (₹):</label>
+            <input type="number" id="bill" min="500" max="1000000" value="3000">
+        </div>
+        
+        <div class="form-group">
+            <label>Customer Type:</label>
+            <div class="radio-group">
+                <input type="radio" id="residential" name="customer" value="residential" checked>
+                <label for="residential">Residential</label>
+                
+                <input type="radio" id="commercial" name="customer" value="commercial">
+                <label for="commercial">Commercial</label>
+                
+                <input type="radio" id="industrial" name="customer" value="industrial">
+                <label for="industrial">Industrial</label>
+            </div>
+        </div>
+        
+        <button id="calculate-btn">Calculate Solar Needs</button>
+        
+        <div id="results" class="results-container">
+            <h2>Your Solar Recommendation</h2>
+            <div class="result-item">
+                <span class="result-label">Estimated Monthly kWh Usage:</span>
+                <span id="monthly-kwh" class="result-value">-</span>
+            </div>
+            <div class="result-item">
+                <span class="result-label">Recommended System Size:</span>
+                <span id="system-size" class="result-value">-</span>
+            </div>
+            <div class="result-item">
+                <span class="result-label">Number of 330W Panels:</span>
+                <span id="panel-count" class="result-value">-</span>
+            </div>
+            <div class="result-item">
+                <span class="result-label">Estimated Roof Space Needed:</span>
+                <span id="roof-space" class="result-value">-</span>
+            </div>
+            <div class="result-item">
+                <span class="result-label">Estimated Cost (before subsidies):</span>
+                <span id="system-cost" class="result-value">-</span>
+            </div>
+            <div class="result-item">
+                <span class="result-label">Estimated Payback Period:</span>
+                <span id="payback-period" class="result-value">-</span>
+            </div>
+            <div>
+                <p> ** THIS DATA IS AUTOMATICLLY GENERATED AG-ENTERPRISES CAN'T RESPONSIBLE FOR ANY DISCREPANCY**</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script2.js"></script>
+</body>
+</html>

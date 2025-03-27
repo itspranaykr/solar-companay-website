@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AG Enterprises - Solar Energy Solutions</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="logo.webp" alt="AG Enterprises Logo" class="logo-img">
+            </div>
+            <div class="lname">
+                <h1 style="color: black;">AG Enterprises</h1>
+                <h2>The future of energy</h2>
+            </div>
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><button id="theme-toggle"><i class="fas fa-moon"></i></button></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-toggle" aria-label="Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Powering Your Future with Solar Energy</h1>
+                    <p>AG Enterprises provides sustainable, efficient, and affordable solar solutions for homes and businesses.</p>
+                    <a href="solarcal.html" class="btn">free solar calculator</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="stats" class="stats-section">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <i class="fas fa-smile"></i>
+                        <h3 style="color: black;" class="counter" data-target="443">0</h3>
+                        <p style="color: white;">Happy Customers</p>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-solar-panel"></i>
+                        <h3 style="color: black;" class="counter" data-target="450">0</h3>
+                        <p style="color: white;">Projects Completed</p>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-calendar-alt"></i>
+                        <h3 style="color: black;" class="counter" data-target="5">0</h3>
+                        <p style="color: white;">Years of Experience</p>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-bolt"></i>
+                        <h3 style="color: black;" class="counter" data-target="33">0</h3>
+                        <p style="color: white;" >MW Installed</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about-img">
+                    <img src="https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Solar Panels">
+                </div>
+                <div class="about-content">
+                    <h2>About AG Enterprises</h2>
+                    <p>Founded in 2020, AG Enterprises has been at the forefront of solar energy innovation, helping homeowners and businesses transition to clean, renewable energy sources.</p>
+                    <p>Our team of certified professionals is committed to providing top-quality solar solutions tailored to your specific needs and budget.</p>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Certified solar installers</li>
+                        <li><i class="fas fa-check-circle"></i> Premium quality materials</li>
+                        <li><i class="fas fa-check-circle"></i> 25-year performance warranty</li>
+                        <li><i class="fas fa-check-circle"></i> Financing options available</li>
+
+                        <!-- In your about.html file where you want the button -->
+                         <div class="read-more-section">
+                          
+                             <a href="ab.html" class="read-more-btn">Read More</a>
+                         </div>
+                    </ul>
+                </div>
+                 
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <div class="container">
+                <h2 style="color: aqua;">Our Services</h2>
+                <p style="color: white;" class="section-subtitle">Comprehensive solar solutions for every need</p>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <img src="s2.jpg" width="230px">
+                        <h3>Off-Grid Systems</h3>
+                        <p style="color: black;">Off-grid systems operate independently of the main power grid, relying on renewable energy sources and storage solutions for electricity supply.</p>
+                    </div>
+                    <div class="service-card">
+                        <img src="s1.webp" width="230px">
+                        <h3>On-Grid Systems</h3>
+                        <p style="color: black;">On-grid systems are connected to the main power grid, allowing for the exchange of electricity and often incorporating renewable sources.</p>
+                    </div>
+                    <div class="service-card">
+                        <img src="s3.jpg" width="230px">
+                        <h3>Hybrid Systems</h3>
+                        <p style="color: black;">Hybrid systems combine multiple energy sources like solar, wind, and grid power with energy storage, offering flexibility and reliability.</p>
+                    </div>
+                    <div class="service-card">
+                        <img src="s5.jpg" width="230px">
+                        <h3>Maintenance</h3>
+                        <p style="color: black;">Professional maintenance and repair services to keep your system running at peak efficiency.</p>
+                    </div>
+                    <div class="read-more-section">
+                          
+                        <a href="service1.html" class="view-more-btn">view More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery">
+            <div class="container">
+                <h2>Our Work Gallery</h2>
+                <p style="text-align: center; margin-bottom: 30px;" class="section-subtitle">Explore our solar installations across different sectors</p>
+                
+                <div class="gallery-filter">
+                    <button class="filter-btn active" data-filter="all">All Projects</button>
+                    <button class="filter-btn" data-filter="residential">Residential</button>
+                    <button class="filter-btn" data-filter="corporate">Corporate</button>
+                    <button class="filter-btn" data-filter="industrial">Industrial</button>
+                </div>
+                
+                <div class="gallery-grid">
+                    <div class="gallery-item residential">
+                        <img src="g2.webp" alt="Residential Solar Installation">
+                        <div class="gallery-overlay">
+                            <h3>Residential Rooftop</h3>
+                            <p>Noida Home Installation</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item industrial">
+                        <img src="g1.webp" alt="Corporate Solar Installation">
+                        <div class="gallery-overlay">
+                            <h3>Office Complex</h3>
+                            <p>Corporate Installation</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item residential">
+                        <img src="g4.webp" alt="Residential Solar Panels">
+                        <div class="gallery-overlay">
+                            <h3>Home</h3>
+                            <p> Home Solar Solution</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item residential">
+                        <img src="g3.webp" alt="Industrial Solar Installation">
+                        <div class="gallery-overlay">
+                            <h3>Internal setup</h3>
+                            <p>battry managment</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item corporate">
+                        <img src="g6.jpg" alt="Corporate Solar Farm">
+                        <div class="gallery-overlay">
+                            <h3>expert team</h3>
+                            <p>employee</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item industrial">
+                        <img src="g5.webp" alt="Residential Solar Array">
+                        <div class="gallery-overlay">
+                            <h3>large scale plant</h3>
+                            <p>Large-Scale Industrial Installationt</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-cta">
+                    <p>Want to see more of our projects?</p>
+                    <a href="#contact" class="btn">Get in Touch</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="work-process">
+            <div class="container">
+                <h2 style="color: aqua; margin-bottom: 20px;">Our Work Process</h2>
+                <p style="color: white;" class="section-subtitle">Simple steps to solar success</p>
+                <div class="process-steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <h3>Consultation</h3>
+                        <p>We assess your energy needs and site conditions.</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <h3>Design</h3>
+                        <p>Our engineers create a custom solar solution.</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <h3>Approval</h3>
+                        <p>We handle all permits and paperwork.</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">4</div>
+                        <h3>Installation</h3>
+                        <p>Professional installation by our certified team.</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">5</div>
+                        <h3>Activation</h3>
+                        <p>System commissioning and monitoring setup.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <div class="container">
+                <h2 style="margin-bottom: 20px;">What Our Customers Say</h2>
+                <p style="margin-bottom: 10px;" class="section-subtitle">Hear from our satisfied clients</p>
+                <div class="testimonial-slider">
+                    <div class="testimonial active">
+                        <p>"AG Enterprises installed our solar system last year and we've already seen a 70% reduction in our electricity bills. The team was professional and the installation was completed ahead of schedule."</p>
+                        <div class="client">
+                            <img src="c1.avif" alt="Sarah Johnson">
+                            <div>
+                                <h4>kritika</h4>
+                                <p>Homeowner</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <p>"As a small business owner, switching to solar was a big decision. AG Enterprises made the process seamless and the financial benefits have exceeded our expectations."</p>
+                        <div class="client">
+                            <img src="pic 1-modified.jpg" alt="Michael Chen">
+                            <div>
+                                <h4>Pranay thakur</h4>
+                                <p>Business Owner</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <p>"The quality of the solar panels and installation was exceptional. We've recommended AG Enterprises to all our neighbors and friends considering solar."</p>
+                        <div class="client">
+                            <img src="c2.jpg" alt="Lisa Rodriguez">
+                            <div>
+                                <h4>Sonu</h4>
+                                <p>Homeowner</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="contact-info">
+                    <h2 style="margin-top: 10px;">Contact Us</h2>
+                    <h3 style="color: rgb(9, 133, 15);">Ready to start your solar journey? Get in touch with our team today.<h3>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p style="color: gray;" >Pusta Road,Kali Mata Mandir,Gardi Gol Chakkar Sector 121,Noida</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <p style="color: gray;" >+91 7011669314</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p style="color: gray;">agstartup160322@gmail.com</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.8129724212017!2d77.40179637528799!3d28.605387075679598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cef007ab95247%3A0x232ae599bacf2e07!2sAG%20SOLAR%20SOLUTIONS!5e0!3m2!1sen!2sin!4v1742972068167!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="container1">
+                    <h1>Contact Us</h1>
+                    <p>Fill out the form below and we'll connect with you soon</p>
+                    
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name*</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">WhatsApp Number*</label>
+                            <input type="tel" id="phone" name="phone" placeholder="e.g., 9876543210" required>
+                            <small>Enter 10-digit Indian mobile number</small>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject*</label>
+                            <select id="subject" name="subject" required>
+                                <option value="" disabled selected>Select a subject</option>
+                                <option value="General Inquiry">General Inquiry</option>
+                                <option value="Product Information">Product Information</option>
+                                <option value="Support">Support</option>
+                                <option value="Feedback">Feedback</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message*</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">
+                            <i class="fab fa-whatsapp"></i> Send via WhatsApp
+                        </button>
+                    </form>
+
+                </div>
+            
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>AG Enterprises</h3>
+                    <p>Leading the way in solar energy solutions since 2020.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="ab.html">About</a></li>
+                        <li><a href="service1.html">Services</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#services">Off-Grid Systems</a></li>
+                        <li><a href="#services">On-Grid Systems</a></li>
+                        <li><a href="#services">Hybrid Systems</a></li>
+                        <li><a href="#services">Maintenance</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Newsletter</h3>
+                    <form id="newsletterForm">
+                        <input type="email" placeholder="Your Email" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 AG Enterprises. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
